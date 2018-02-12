@@ -22,8 +22,8 @@ services:
     links:
       - mysql
   nginx:
-    build: ./nginx
-    image: nginx
+    #build: ./nginx
+    image: daocloud.io/library/nginx
     container_name: nginx
     ports:
       - 80:80
