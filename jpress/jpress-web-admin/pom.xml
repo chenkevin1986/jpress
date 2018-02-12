@@ -222,7 +222,6 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<configuration>
 					<attachClasses>true</attachClasses>
-					<encoding>utf-8</encoding>
 					<packagingExcludes>WEB-INF/web.xml</packagingExcludes>
 					<overlays>
 						<overlay>

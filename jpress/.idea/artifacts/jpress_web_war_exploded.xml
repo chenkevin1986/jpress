@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jpress-web:war exploded">
+    <output-path>$PROJECT_DIR$/jpress-web/target/jpress-web-1.0</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jpress-web" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/jpress-web/target/jpress-web-1.0/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="jpress-web/web/Web" />
+      <element id="artifact" artifact-name="jpress-web-front:war exploded" />
+      <element id="artifact" artifact-name="jpress-web-admin:war exploded" />
+      <element id="artifact" artifact-name="jpress-web-template-jblog:war exploded" />
+      <element id="artifact" artifact-name="jpress-web-template-the3:war exploded" />
+      <element id="artifact" artifact-name="jpress-web-core:war exploded" />
+    </root>
+  </artifact>
+</component>
