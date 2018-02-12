@@ -1,8 +1,8 @@
 version: '3'
 services:
   mysql:
-    build: ./mysql
-    image: mysql
+    #build: ./mysql
+    image: daocloud.io/library/mysql
     container_name: mysql
     ports:
       - 3306:3306
